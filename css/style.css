@@ -1,6 +1,7 @@
 body {
-  width: 1440px;
+  /* width: 1440px;
   height: 4804px;
+  position: absolute; */
 }
 
 .logo-text {
@@ -889,4 +890,41 @@ nav.show {
 
 .logo {
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .group-1,
+  .section,
+  .cards,
+  .info-1,
+  .info-2,
+  .info-3,
+  .tasks,
+  .section-2,
+  footer,
+  .nav-links,
+  header,
+  .nav-items {
+    flex-direction: column;
+  }
+}
+
+.sum {
+  position: absolute;
+}
+
+@media (max-width: 768px) {
+  .section p,
+  .section-text p {
+    margin-left: -50px;
+  }
+  .info-text2 {
+    margin-left: -100px;
+  }
+  .info-2 {
+    margin-left: ;
+  }
+  .nav-items {
+    margin-top: 80px;
+  }
 }
